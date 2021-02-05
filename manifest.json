@@ -3,7 +3,7 @@
 
   "name": "ODytmp4",
   "version": "0.1.0",
-  "description": "youtube mp3/mp4 downloader",
+  "description": "https://github.com/dovenokan/youtube-download-button/",
 
   "content_scripts": [{
     "css": ["styles.css"],
