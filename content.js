@@ -16,5 +16,5 @@ function genLink() {
 	console.log(node.href)
 };
 
-setInterval(genLink, 500);
+setInterval(genLink, 1500);
 window.onload = func;
