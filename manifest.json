@@ -5,8 +5,6 @@
   "version": "0.1.0",
   "description": "youtube mp3/mp4 downloader",
 
-  "run_at": "document_end",
-
   "content_scripts": [{
     "css": ["styles.css"],
     "js": ["content.js"],
