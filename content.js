@@ -13,7 +13,6 @@ function func() {
 
 function genLink() {
 	node.href = window.location.href.replace("youtube","youtubepp"); 
-	console.log(node.href)
 };
 
 setInterval(genLink, 1500);
