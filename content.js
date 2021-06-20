@@ -13,7 +13,7 @@ function func() {
 };
 
 function genLink() {
-	node.href = window.location.href.replace("youtube","youtubepp"); 
+	node.href = window.location.href.replace("youtube","youtubezz"); 
 	console.log(node)
 };
 
