@@ -9,12 +9,13 @@ function func() {
 	node.target = "_blank"
 	node.setAttributeNode(att);
 	node.appendChild(textnode);
-	document.querySelectorAll('#owner-sub-count')[1].appendChild(node);
+	// document.querySelectorAll('#owner-sub-count')[2].appendChild(node);
+	// document.querySelectorAll('#subscribe-button')[2].appendChild(node);
+	document.querySelectorAll("#top-row > ytd-video-owner-renderer")[0].appendChild(node);
 };
 
 function genLink() {
 	node.href = window.location.href.replace("youtube","youtubezz"); 
-	console.log(node)
 };
 
 
